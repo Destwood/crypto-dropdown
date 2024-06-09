@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/okotoki/static/css/main.19b215a9.css",
-    "main.js": "/okotoki/static/js/main.dbc4074d.js",
-    "static/media/codicon.ttf?": "/okotoki/static/media/codicon.8f3abbcbc983396e1f13.ttf",
-    "index.html": "/okotoki/index.html",
-    "main.19b215a9.css.map": "/okotoki/static/css/main.19b215a9.css.map",
-    "main.dbc4074d.js.map": "/okotoki/static/js/main.dbc4074d.js.map"
+    "main.css": "/crypto-dropdown/static/css/main.c92350b9.css",
+    "main.js": "/crypto-dropdown/static/js/main.dbc4074d.js",
+    "static/media/codicon.ttf?": "/crypto-dropdown/static/media/codicon.8f3abbcbc983396e1f13.ttf",
+    "index.html": "/crypto-dropdown/index.html",
+    "main.c92350b9.css.map": "/crypto-dropdown/static/css/main.c92350b9.css.map",
+    "main.dbc4074d.js.map": "/crypto-dropdown/static/js/main.dbc4074d.js.map"
   },
   "entrypoints": [
-    "static/css/main.19b215a9.css",
+    "static/css/main.c92350b9.css",
     "static/js/main.dbc4074d.js"
   ]
 }
