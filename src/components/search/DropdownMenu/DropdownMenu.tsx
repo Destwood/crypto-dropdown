@@ -44,6 +44,7 @@ function DropdownMenu() {
 
   return (
     <div className={style.container}>
+      {/* search bar */}
       <div className={style.search}>
         <i className="codicon codicon-search"></i>
 
@@ -55,16 +56,19 @@ function DropdownMenu() {
             value={text}
             onChange={handleChange}
           />
-          <button
-            onClick={() => {
-              setText("");
-            }}
-            className={style.searchClear}
-          >
-            <span>x</span>
-          </button>
+          {text !== "" && (
+            <button
+              onClick={() => {
+                setText("");
+              }}
+              className={style.searchClear}
+            >
+              <span>x</span>
+            </button>
+          )}
         </div>
       </div>
+      {/* choose list to display */}
       <div className={style.listSelect}>
         <span
           className={`${style.listName} ${
@@ -84,6 +88,7 @@ function DropdownMenu() {
           ALL Coins
         </span>
       </div>
+      {/* display current list */}
       <div className={style.listContainer}>
         <div className={style.list}>
           {selectedList === "all"
