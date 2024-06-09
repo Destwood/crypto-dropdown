@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/okotoki/static/css/main.19b215a9.css",
+    "main.js": "/okotoki/static/js/main.dbc4074d.js",
+    "static/media/codicon.ttf?": "/okotoki/static/media/codicon.8f3abbcbc983396e1f13.ttf",
+    "index.html": "/okotoki/index.html",
+    "main.19b215a9.css.map": "/okotoki/static/css/main.19b215a9.css.map",
+    "main.dbc4074d.js.map": "/okotoki/static/js/main.dbc4074d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19b215a9.css",
+    "static/js/main.dbc4074d.js"
+  ]
+}
