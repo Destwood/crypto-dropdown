@@ -1,0 +1,38 @@
+.container {
+  width: fit-content;
+  margin: auto;
+  color: #e4e3e5;
+  position: relative;
+}
+
+.searchButton {
+  border: 0.2rem solid #00000000;
+  border-radius: 0.5rem;
+
+  font-size: 1.1rem;
+
+  padding: 0.5rem 0.7rem;
+  user-select: none;
+}
+.searchButton:hover {
+  background-color: #3a383a;
+}
+.searchButton:active {
+  border: 0.2rem solid #4e4d4e;
+}
+.searchButton span {
+  text-transform: uppercase;
+}
+.searchButton i {
+  transform: scaleX(-1);
+  margin-right: 0.5rem;
+  overflow: hidden;
+}
+.searchButton i::before {
+  font-size: 1rem;
+}
+
+.active {
+  border: 0.2rem solid #4e4d4e;
+  background-color: #3a383a;
+}

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+.container {
+  position: absolute;
+  right: 0;
+  border: 1px solid #393739;
+  border-radius: 1rem;
+}
+
+.container > div {
+}
+
+/* search section */
+.search {
+  width: 15rem;
+  display: flex;
+  border-bottom: 1px solid #393739;
+  padding: 1rem;
+}
+
+/* search button */
+.searchContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.search i {
+  margin-right: 0.5rem;
+}
+/* input */
+.searchInput {
+  width: 80%;
+  background-color: transparent;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+/* clear */
+.searchClear {
+  height: fit-content;
+  border: none;
+  background-color: transparent;
+}
+.searchClear span {
+  line-height: 1rem;
+  font-size: 2.5rem;
+  font-family: "Dongle", sans-serif;
+  background: linear-gradient(
+    190deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(74, 118, 189, 1) 38%,
+    rgba(26, 33, 52, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+i {
+  margin-right: 0.5rem;
+}
+
+/* listSelect section */
+
+.listSelect {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #131214;
+}
+.listName {
+  text-transform: uppercase;
+  color: #ffffffb1;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.listSelect span:hover {
+  cursor: pointer;
+  background-color: #3a383a;
+}
+.listSelect span i::before {
+  font-size: 0.9rem;
+}
+.active {
+  color: #fff;
+}
+
+/* list section */
+.listContainer {
+}
+.list {
+  min-height: 5rem;
+  max-height: 15rem;
+  overflow-y: scroll;
+  padding: 0 0.5rem;
+}
+.list::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background: #0d0b0d;
+  border-radius: 10px;
+}
+
+.list::-webkit-scrollbar-thumb:hover {
+  background: #080608;
+}
+.listItem {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.listItem:hover {
+  cursor: pointer;
+  background-color: #3a383a;
+}
+.addToFav i::before {
+  font-size: 0.9rem;
+}
+.addToFav:hover {
+  cursor: pointer;
+}
+.itemText {
+  line-height: 1rem;
+}
